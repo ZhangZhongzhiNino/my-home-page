@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ZhangZhongzhiNino/my-home-page/issues"
   },
-  "homepage": "https://github.com/ZhangZhongzhiNino/my-home-page#readme"
+  "homepage": "https://github.com/ZhangZhongzhiNino/my-home-page#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
