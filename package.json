@@ -2,14 +2,16 @@
   "name": "my-home-page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZhangZhongzhiNino/my-home-page.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,7 +19,9 @@
   },
   "homepage": "https://github.com/ZhangZhongzhiNino/my-home-page#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "pool": "^0.4.1"
+    "pg-promise": "^8.7.2"
   }
 }
